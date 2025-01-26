@@ -57,6 +57,7 @@ Before running the project, ensure you have the following installed:
 ### **Configuration**  
 1. Create a `.env` file in the root directory and add the following environment variables:  
    ```env
+   ALEGRA_EMAIL=your_alegra_email
    ALEGRA_API_KEY=your_alegra_api_key
    ```  
 2. Create a custom field in Alegra inventory with the name `reorder_point` and type `number`. This field will be used to store the reorder point for each product and will be used by the tool.
