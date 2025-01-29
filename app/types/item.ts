@@ -4,4 +4,8 @@ export type Item = {
   inventory?: {
     availableQuantity: number;
   };
+  customFields?: {
+    name: string;
+    value: string;
+  }[];
 }; 
